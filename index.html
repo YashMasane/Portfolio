@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Masane</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="container" id="home">
+            <img id="back" src="images/userAsset/neon-lights-background-theme_52683-44625.avif" />
+            <img id="front" src="images/userAsset/foreground.png" />
+
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/favicon.png" alt="">
+                </div>
+
+                <div class="nav-items">
+                    <div id="menu">
+                        <div id="menu-bar" onclick="menuOnClick()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div>
+                        <nav class="nav" id="nav">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#project">Projects</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#formmc">Contact Me</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu-bg" id="menu-bg"></div>
+                </div>
+            </div>
+            <div class="greeting-message" id="greetingMessage">
+                <h1>Welcome to <br> my site !</h1>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="faded-text">User</div> -->
+
+        <div class="project-section" id="about">
+            <h2>Who Am I ?</h2>
+            <div class="hero-section">
+                <div class="hero-section-left">
+                    <div class="hero-subheading">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="hero-descr">
+                        I am a data science enthusiast with a strong academic background in Mathematics and Scientific
+                        Computing, holding a
+                        Master’s degree from MNNIT Allahabad. My expertise spans machine learning, deep learning, and
+                        data
+                        analysis, with a
+                        focus on areas such as computer vision and natural language processing.
+
+                        I am proficient in building and optimizing AI models, and I have hands-on experience with
+                        popular
+                        tools like Python,
+                        TensorFlow, and Scikit-learn. With a passion for problem-solving and a keen interest in applying
+                        data-driven approaches,
+                        I am continuously expanding my skill set and looking for opportunities to contribute to
+                        impactful
+                        projects.
+
+                        I am actively seeking roles where I can leverage my knowledge and grow further in the field of
+                        data
+                        science. Explore my
+                        portfolio to learn more about my skills and achievements.
+                    </div>
+
+                    <a href="https://www.linkedin.com/in/yashm08/" target="_blank" class="btn">
+
+                        <button type="submit" class="btn-pink" id="submit-btn">Hire Me
+                            <i class="submit-icon fa-brands fa-linkedin icon"></i>
+                        </button>
+
+
+                    </a>
+                </div>
+
+
+                <div class="hero-section-right">
+                    <div class="user-image">
+                        <img src="./images/userAsset/UserImage.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="project" class="project-section">
+            <h2>Projects</h2>
+
+            <div class="project-container slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 2</div>
+                    <div class="card">
+                        <input type="checkbox" id="card1" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front"
+                                style="background-image: url('https://raw.githubusercontent.com/YashMasane/Real-vs-AI-generated-image/refs/heads/main/img/ai_dog_demo.png')">
+                                <div class="inner">
+                                    <h2>AI-Generated vs Real Image Classification</h2>
+
+                                    <div class="btn-group">
+                                        <a href="https://github.com/YashMasane/Real-vs-AI-generated-image
+">
+                                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                        </a>
+                                        <a href="https://ai-generated-image-detector.onrender.com/
+">
+                                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                        </a>
+                                    </div>
+
+                                    <label for="card1" class="button" aria-hidden="true">
+                                        Details
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="project-skills-container">
+                                        
+                                        <img class="project-skill"
+                                            src="https://camo.githubusercontent.com/b14047b021edee959c4af8bbd851718afd9dc859cd8656b60cb90010340de735/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d2532333337373641422e7376673f7374796c653d666c6174266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465"
+                                            alt="" />
+                                        <img class="project-skill"
+                                            src="https://camo.githubusercontent.com/7141af4386c7dd0c51fb83a1f4d51212e23f72ff088edfddd60ccdcff14dffc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54656e736f72466c6f772d2532334646364630302e7376673f7374796c653d666c6174266c6f676f3d74656e736f72666c6f77266c6f676f436f6c6f723d7768697465"
+                                            alt="" />
+                                        <img class="project-skill" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg" alt="" />
+                                        <img class="project-skill" src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/pandas.svg" alt="" />
+                                    </div>
+                                    <div class="description">
+                                        <ul>
+                                            <li>
+                                                Developed an image classification model using EfficientNetB6 with
+                                                transfer learning to distinguish between
+                                                AI-generated and
+                                                real images, achieving 94.50% precision, 93.67% recall, and 94% accuracy
+                                                with checkpoint callbacks for performance
+                                                optimization.
+                                            </li>
+                                            <li>
+                                                Reduced model size by 20% through hyper-tuning EfficientNetB6,
+                                                achieving the same performance as EfficientNetB3 while
+                                                maintaining a lighter model.
+                                            </li>
+                                            <li>
+                                                Optimized training time by35% using GPU acceleration.
+                                            </li>
+                                        </ul>
+
+
+
+                                    </div>
+
+                                    <label for="card1" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 2</div>
+                    <div class="card">
+                        <input type="checkbox" id="card2" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('images/projects/P1.png')">
+                                <div class="inner">
+                                    <h2>Comments Toxicity Detection</h2>
+
+                                    <div class="btn-group">
+                                        <a href="https://github.com/YashMasane/Comment-Toxicity-Model
+">
+                                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                        </a>
+                                        <a href="https://huggingface.co/spaces/Yash008/comment-toxicity-detection">
+                                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                        </a>
+                                    </div>
+
+                                    <label for="card2" class="button" aria-hidden="true">
+                                        Details
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="project-skills-container">
+                                        <img class="project-skill" src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" alt="" />
+                                        <img class="project-skill" src="https://camo.githubusercontent.com/b14047b021edee959c4af8bbd851718afd9dc859cd8656b60cb90010340de735/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d2532333337373641422e7376673f7374796c653d666c6174266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465" alt="" />
+                                        <img class="project-skill" src="https://camo.githubusercontent.com/7141af4386c7dd0c51fb83a1f4d51212e23f72ff088edfddd60ccdcff14dffc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54656e736f72466c6f772d2532334646364630302e7376673f7374796c653d666c6174266c6f676f3d74656e736f72666c6f77266c6f676f436f6c6f723d7768697465" alt="" />
+                                        <!-- <img class="project-skill" src="./images/stack/VS code.png" alt="" /> -->
+                                    </div>
+                                    <div class="description">
+                                        <ul>
+                                            <li>
+                                                Developed a multi-label comment toxicity detection model using
+                                                TensorFlow, achieving 99% accuracy, 92.94% precision,
+                                                and 81.87% recall on the validation set.
+
+
+                                            </li>
+                                            <li>
+                                                Reduced false positives by 15% usinga Bidirectional LSTM over baseline
+                                                models.
+                                            </li>
+                                            <li>
+                                               Accelerated training by 40% through GPU optimization and efficient
+                                                databatching.
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <label for="card2" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+
+
+        <div id="skills" class="project-section">
+            <h2>
+                MyTech Stack
+            </h2>
+            <div class="skill-container">
+
+
+                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+                <img src="https://camo.githubusercontent.com/b14047b021edee959c4af8bbd851718afd9dc859cd8656b60cb90010340de735/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d2532333337373641422e7376673f7374796c653d666c6174266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/d93641689302373d14ce99438ff85ff98c5bdeae2aa683fa9e7b5e23cf8ccc06/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53514c2d2532333030433443432e7376673f7374796c653d666c6174266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/51ff45de047eb96511a5e07ac6fd9c2a4b5fab2a22a39a1eb17763dd15482202/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e756d50792d2532333031333234332e7376673f7374796c653d666c6174266c6f676f3d6e756d7079266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/a74c8d8e4f1c4ff03852e8ae6195268915bc191b70a5d916e09f4669f537e23a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50616e6461732d2532333135303435382e7376673f7374796c653d666c6174266c6f676f3d70616e646173266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/7141af4386c7dd0c51fb83a1f4d51212e23f72ff088edfddd60ccdcff14dffc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54656e736f72466c6f772d2532334646364630302e7376673f7374796c653d666c6174266c6f676f3d74656e736f72666c6f77266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/79fc42e5e3517cfe81dd172f1c8d69729756b072370728c196536eadc0895c64/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4b657261732d2532334430303030302e7376673f7374796c653d666c6174266c6f676f3d6b65726173266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/7cc580b8068c48d0ff2f59d9694ff96460ef6154453e19d084f68d0a5d170253/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5363696b69742d2d6c6561726e2d2532334637444631452e7376673f7374796c653d666c6174266c6f676f3d7363696b69742d6c6561726e266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/becf5d4c0fe2dd510ea7987c93c4f091b607ce26bd907cadac5d873d002a1e41/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616368696e652532304c6561726e696e672d2532334637444631452e7376673f7374796c653d666c6174266c6f676f3d7363696b69742d6c6561726e266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://camo.githubusercontent.com/0c0ca45ee8b3c611a061e3357e3309bbaddc63fe8cacaac313eedaca3f652224/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446565702532304c6561726e696e672d2532333135373242362e7376673f7374796c653d666c6174266c6f676f3d74656e736f72666c6f77266c6f676f436f6c6f723d7768697465"
+                    alt="" class="skills-logo" />
+                <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg"
+                    alt="" class="skills-logo" />
+                <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg"
+                    alt="" class="skills-logo" />
+                <img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-ar21.svg"
+                    alt="" class="skills-logo" />
+                <img src="https://upload.vectorlogo.zone/logos/streamlitio/images/abda5a6f-0d62-4d24-a16d-f7132016b2ff.svg"
+                    alt="" class="skills-logo" />
+                <img src="images/stack/yolo.jpg" id ="llast"
+                    alt="" class="skills-logo" />
+                
+            </div>
+
+
+</div>
+
+
+
+            <div id="formmc" class="project-section">
+                <h2>Questions,Thoughts, or any feedback </h2>
+
+
+                <form class="form" onsubmit="return validateForm();" action="https://formspree.io/f/movqjvbn"
+                    method="POST" autocomplete="on">
+                    <div class="formfield-container">
+
+                        <input class="formfield" type="text" name="Name" id="contact-name" placeholder="Enter your name"
+                            onkeyup="validateName()" />
+                        <span class="sp" id="name-error"></span>
+                        <input class="formfield" type="email" name="Email" id="contact-email"
+                            placeholder="Enter your email" onkeyup="validateEmail()" />
+                        <span class="sp" id="email-error"></span>
+
+                        <textarea name="Message" id="message" cols="30" rows="10" class="formfield formfield-textarea"
+                            placeholder="Enter your message" required></textarea>
+                    </div>
+
+                    <div>
+
+                        <button type="submit" class="btn-pink" id="submit-btn" onclick="return validateForm();">Send
+                            message
+                            <i class="submit-icon fa-solid fa-paper-plane"></i>
+                        </button>
+                        <span class="sp" id="form-error"></span>
+
+                    </div>
+                </form>
+
+
+
+            </div>
+            <!-- <div id="foot" class="project-section">
+            <h2>Contact Me </h2> -->
+            <footer class="icon-wrapper">
+                <a href="#home">
+                    <button class="mdi mdi-chevron-double-up">
+                        <img src="images/Backgrounds/arrow.png" alt="">
+                    </button>
+                </a>
+
+
+
+                <a href="https://www.linkedin.com/in/yashm08/
+">
+                    <i class="fa-brands fa-linkedin icon"></i>
+                </a>
+                <a href="https://github.com/YashMasane">
+                    <i class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="https://www.instagram.com/
+yashm_008/">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </a>
+                <a href="mailto:masaneyash6@gmail.com">
+                    <i class="fa-regular fa-envelope icon"></i></a>
+
+
+
+            </footer>
+            <!-- </div> -->
+        </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+        <script src="script.js"> </script>
+
+
+</body>
+
+</html>
